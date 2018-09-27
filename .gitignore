@@ -1,0 +1,11 @@
+
+# main
+.next/
+out/
+.vscode/
+
+# Dependency Directories
+node_modules/
+
+# Dependency Files
+yarn.lock
