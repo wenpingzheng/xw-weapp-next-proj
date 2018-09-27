@@ -1,15 +1,15 @@
 /**
  * @author wpzheng
  * @time 2018-09-15
- * @param {string} props.name - 名称
- * @param {string} props.subname - 分类
+ * @param {String} props.name - 名称
+ * @param {String} props.subname - 分类
  * @param {Object} props.apiData - 数据
  */
 
 import { Component } from 'react'
 import Layout from '../layouts/CoreLayout'
 import jsonp from '../libs/isomorphic-jsonp'
-import VideoWrap from '../components/common/item'
+import VideoWrap from '../components/common/VideoItem'
 
 /**
  * 获取数据函数
