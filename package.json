@@ -14,14 +14,15 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "all": "^0.0.0",
     "axios": "^0.18.0",
     "core-js": "^2.5.7",
     "js-cookie": "^2.2.0",
     "jsonp": "^0.2.1",
     "load-script": "^1.0.0",
+    "loadash": "^1.0.0",
     "next": "^5.0.0",
     "next-routes": "^1.4.2",
+    "prop-types": "^15.6.2",
     "qs": "^6.5.2",
     "raf": "^3.4.0"
   }
