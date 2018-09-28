@@ -10,6 +10,7 @@ import { Component } from 'react'
 import Layout from '../layouts/CoreLayout'
 import jsonp from '../libs/isomorphic-jsonp'
 import VideoWrap from '../components/common/VideoItem'
+import MainHeader from '../components/common/MainHeader';
 
 /**
  * 获取数据函数
@@ -50,6 +51,9 @@ export default class extends Component {
     return (
       <div>
         <Layout title="视频">
+          <div>
+            <MainHeader channel="视频" channelsite="video"/>
+          </div>
           <h2>子名称{subname}</h2>
           <p>频道页{name}</p>
           <div className="content-wrap">

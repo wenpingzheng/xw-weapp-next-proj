@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react'
+import SitehHeader from '../common/SiteHeader'
 
 export default class extends Component {
   constructor (props) {
@@ -22,6 +23,7 @@ export default class extends Component {
   render() {
     return (
       <div className="main-header">
+        <SitehHeader />
         <div 
           className="sticky-placeholder"
           style={{
