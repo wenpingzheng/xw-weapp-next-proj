@@ -23,7 +23,6 @@ const serverHandler = (req, res) => {
 
 app.prepare()
   .then(() => {
-
     // 端口配置
     const port = {
       http: process.env.NEXT_PORT_HTTP || 3000,

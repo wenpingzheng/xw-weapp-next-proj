@@ -45,7 +45,7 @@ const nextConfig = {
       '/m/video/cat': { page: '/video', query: { static: true, name: 'video', subname: 'cat' } }
     }
   },
-  assetPrefix: isProd ? 'https://mat1.gtimg.com/pingjs/ext2020/xw-next/' : ''
+  assetPrefix: isProd ? '' : ''
 }
 
 module.exports = nextConfig
