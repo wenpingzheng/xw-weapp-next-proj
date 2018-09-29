@@ -9,3 +9,4 @@ node_modules/
 
 # Dependency Files
 yarn.lock
+yarn.error.log

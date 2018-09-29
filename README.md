@@ -102,6 +102,13 @@ The end !!
 
 Sometimes, we need do something to promise our project strong. so 
 
+## 部署上服务器
+```
+zip y
+unzip
+pm2 start npm --name 'hello-next' -- run start
+```
+
 ```
 ├─ .next                 dev(执行)      build(转换)
 |    ├─ bundles          - 访问生成      - 压缩    - 编译后的代码
