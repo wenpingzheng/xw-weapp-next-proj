@@ -12,7 +12,7 @@ export default ({ children, viewportScale = 1, title='' }) => (
     { children }
     <style jsx global>{`
       body{
-        background-color:#ddd;
+        background-color:#f9f9f9;
       }
     `}</style>
   </div>

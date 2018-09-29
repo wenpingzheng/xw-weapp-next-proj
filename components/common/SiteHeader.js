@@ -57,7 +57,7 @@ export default class extends Component {
   goLogin = () => {
     // login.Passport.login()
     cookie.set('xw_lastpage', window.location.href, { domain: '.qq.com' })
-    window.location.href = '/login.html'
+    window.location.href = '/login'
   }
 
   // 头像加载失败 替换默认图
