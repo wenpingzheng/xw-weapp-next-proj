@@ -16,7 +16,7 @@ import MainHeader from '../components/common/MainHeader';
  * 获取数据函数
  */
 let loadVieosList = () => {
-  return jsonp('https://pacaio.match.qq.com/xw/rcdVideo', {
+  return jsonp('http://pacaio.match.qq.com/xw/rcdVideo', {
     t: new Date().getTime()
   })
 }
