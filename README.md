@@ -133,7 +133,12 @@ pm2 start npm --name 'hello-next' -- run start
 ├─ routes.js
 └─ server.js
 ```
-
+# 使用
+```
+git clone xxxx
+yarn / npm install
+yarn dev
+```
 
 
 
